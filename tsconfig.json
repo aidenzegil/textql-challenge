@@ -4,7 +4,7 @@
     "module": "node16",
     "lib": ["ES2022"],
     "moduleResolution": "node16",
-    "rootDir": ".",
+    "rootDir": "src",
     "outDir": "build",
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
@@ -17,7 +17,9 @@
     "noUnusedParameters": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
-  "include": ["src/**/*", "__tests__/**/*"]
+  "include": ["src/**/*", "src/__tests__/**/*", "src/**/*.json", "src"]
 }
