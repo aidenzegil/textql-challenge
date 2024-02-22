@@ -46,4 +46,16 @@ To get started run the following commands
     SELECT  "first Name","lastName", "age", "eyeColor"  FROM  user  WHERE  ("eyeColor" = "blue" AND gender != "female") OR ("eyeColor" = "blue" AND gender != "male");
    ```
 
-## Examples
+# test queries
+
+```sql
+     SELECT  * FROM  user  WHERE  ("eyeColor" = "blue" AND gender != "female") OR ("eyeColor" = "blue" AND gender != "male");
+```
+
+```sql
+     SELECT  "firstName","lastName", "age", "eyeColor"  FROM  user;
+```
+
+```sql
+    SELECT  "firstName","lastName", "age", "eyeColor"  FROM  user  WHERE  ("eyeColor" = "blue" AND gender != "female") OR ("eyeColor" = "blue" AND gender != "male");
+```
