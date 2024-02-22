@@ -1,5 +1,16 @@
 export const PARSED_DATA = [
   {
+    balanceDollars: 1279.33,
+    age: 36,
+    eyeColor: 'blue',
+    firstName: 'Flossie',
+    lastName: 'Harrington',
+    gender: 'female',
+    email: 'flossieharrington@diginetic.com',
+    latitude: 82.714816,
+    longitude: -98.863611,
+  },
+  {
     balanceDollars: 3523.41,
     age: 34,
     eyeColor: 'brown',
@@ -175,17 +186,7 @@ export const PARSED_DATA = [
     latitude: 21.332013,
     longitude: -89.514579,
   },
-  {
-    balanceDollars: 1279.33,
-    age: 36,
-    eyeColor: 'blue',
-    firstName: 'Flossie',
-    lastName: 'Harrington',
-    gender: 'female',
-    email: 'flossieharrington@diginetic.com',
-    latitude: 82.714816,
-    longitude: -98.863611,
-  },
+
   {
     balanceDollars: 3504.87,
     age: 25,
