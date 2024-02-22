@@ -24,9 +24,9 @@ To get started run the following commands
 
 1. cd into build
 
-```bash
-cd build
-```
+   ```bash
+   cd build
+   ```
 
 1. Start the SQL parser
 
